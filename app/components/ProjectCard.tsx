@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+import Link from 'next/link';
 import { Github, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -77,13 +78,13 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
                             </a>
                         )}
                         {project.links.caseStudy && (
-                            <a
+                            <Link
                                 href={project.links.caseStudy}
                                 className="text-zinc-500 hover:text-accent transition-colors"
                                 title="Leer Post / Case Study"
                             >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" /></svg>
-                            </a>
+                            </Link>
                         )}
                     </div>
                 </div>
