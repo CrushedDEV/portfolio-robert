@@ -41,8 +41,7 @@ export default function Home() {
       <SocialPopup />
 
       <footer className="w-full py-6 text-center text-zinc-600 text-xs">
-        <p>Created by <a href="https://github.com/CrushedDev" target="_blank" rel="noopener noreferrer" className="text-zinc-400 font-medium hover:text-white transition-colors">crusheed</a></p>
-      </footer>
+       </footer>
     </main>
   );
 }
