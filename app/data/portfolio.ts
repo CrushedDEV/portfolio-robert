@@ -78,7 +78,7 @@ export const portfolioData = {
             links: {
                 caseStudy: '/blog/configuracion-firewall-linux'
             },
-            image: '../../public/assets/images/projects/firewall-linux.png',
+            image: './firewall-uwf-1024x512.png',
             featured: true
         },
         {
@@ -88,7 +88,7 @@ export const portfolioData = {
             links: { 
                 github: '#', demo: '#'
             },
-            image: '../../public/assets/images/projects/gestor-usuarios-bash.png',
+            image: './Adobe Express - file.webp',
             featured: true
         },
 
