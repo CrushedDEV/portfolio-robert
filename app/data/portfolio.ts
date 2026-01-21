@@ -71,16 +71,7 @@ export const portfolioData = {
     // =========================================================================================
 
     projects: [
-        {
-            title: 'Configuración de Firewall i Monotoreo de un servidor en Linux',
-            description: 'Una guía completa sobre cómo configurar un firewall efectivo y monitorear un servidor Linux para garantizar su seguridad y rendimiento óptimo.',
-            tags: ['Linux', 'Firewall', 'Seguridad'],
-            links: {
-                caseStudy: '/blog/configuracion-firewall-linux'
-            },
-            image: './firewall-uwf-1024x512.png',
-            featured: true
-        },
+   
         {
             title: 'Gestor de usuarios con Bash',
             description: 'Un script en Bash que permite gestionar usuarios en sistemas Linux de manera sencilla y eficiente, facilitando tareas administrativas comunes.',
@@ -92,6 +83,16 @@ export const portfolioData = {
             featured: true
         },
 
+             {
+            title: 'Fast Fuel ',
+            description: 'Este es el proyecto de mi equipo para el proyecto final del ciclo de administración de sistemas. Consiste en una página web para realizar los pedido y pagos en tiempo real a demas implementamos circuito para simualñr el sistema de repostaje de una gasoliuenra normal i corinete',
+            tags: ['Bash', 'Linux', 'Scripting','Arduino','HTML','CSS'],
+            links: { 
+                github: '#', demo: '#'
+            },
+            image: './Adobe Express - file.webp',
+            featured: true
+        },
     ],
 
     // =========================================================================================
