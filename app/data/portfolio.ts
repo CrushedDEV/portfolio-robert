@@ -73,11 +73,11 @@ export const portfolioData = {
     projects: [
    
         {
-            title: 'Gestor de usuarios con Bash',
+            title: 'SysAdmin Tools con Bash',
             description: 'Un script en Bash que permite gestionar usuarios en sistemas Linux de manera sencilla y eficiente, facilitando tareas administrativas comunes.',
-            tags: ['Bash', 'Linux', 'Scripting'],
+            tags: ['Bash', 'Linux', 'Shell', 'scripting'],
             links: { 
-                github: '#', demo: '#'
+                github: 'https://github.com/RobertMartiB/sysadmin-tools-bash', demo: '#'
             },
             image: './Adobe Express - file.webp',
             featured: true
@@ -86,11 +86,11 @@ export const portfolioData = {
              {
             title: 'Fast Fuel ',
             description: 'Este es el proyecto de mi equipo para el proyecto final del ciclo de administración de sistemas. Consiste en una página web para realizar los pedido y pagos en tiempo real a demas implementamos circuito para simualñr el sistema de repostaje de una gasoliuenra normal i corinete',
-            tags: ['Bash', 'Linux', 'Scripting','Arduino','HTML','CSS'],
+            tags: ['Windows Server', 'Linux', 'Scripting','Arduino','HTML','CSS', 'SQL'],
             links: { 
-                github: '#', demo: '#'
+                github: 'https://publuu.com/flip-book/1048400/2324769/page/2', demo: '#'
             },
-            image: './Adobe Express - file.webp',
+            image: './22579.webp',
             featured: true
         },
     ],
