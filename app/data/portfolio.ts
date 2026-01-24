@@ -44,8 +44,8 @@ export const portfolioData = {
 
   experience: [
     {
-        title: 'Senior System Administrator',
-        role: 'Senior System Administrator',
+        title: 'Junior System Administrator',
+        role: 'Junior System Administrator',
         company: 'Techpole Solutions',
         location: 'Barcelona, España (Híbrido)',
         period: 'Actualidad',
@@ -56,14 +56,14 @@ export const portfolioData = {
             'Configuración de seguridad perimetral, túneles VPN IPsec y gestión de firewalls empresariales.',
             'Automatización de tareas administrativas mediante scripting avanzado y monitorización de servicios esenciales.'
         ],
-        tags: ['AWS', 'Windows Server', 'Linux', 'VMware', 'Cybersecurity', 'VPN'],
+        tags: ['AWS', 'Windows Server', 'Linux', 'VMware', 'Cybersecurity', 'VPN', 'Docker', 'Scripting'],
         links: { github: '#', demo: '#' },
         image: './tu-imagen-techpole.webp',
         featured: true
     },
     {
-        title: 'SysAdmin & Web Infrastructure Specialist',
-        role: 'SysAdmin & Web Infrastructure Specialist',
+        title: 'Junior SysAdmin & Web Infrastructure Specialist',
+        role: 'Junior SysAdmin & Web Infrastructure Specialist',
         company: 'Asialink',
         location: 'Barcelona, España (Presencial)',
         period: 'Anterior',
@@ -74,7 +74,7 @@ export const portfolioData = {
             'Mantenimiento de redes locales, gestión de DNS, certificados SSL y conectividad de la sede central.',
             'Auditoría técnica de sistemas para la mejora del rendimiento y la escalabilidad de la arquitectura web.'
         ],
-        tags: ['Nginx', 'SQL', 'Backend Infra', 'Cloud Services', 'Networking'],
+        tags: ['Nginx', 'SQL', 'Backend Infra', 'Cloud Services', 'Networking', 'AWS', 'Docker'],
         links: { github: '#', demo: '#' },
         image: './tu-imagen-asialink.webp',
         featured: false
