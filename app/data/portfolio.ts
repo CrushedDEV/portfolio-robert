@@ -45,31 +45,21 @@ export const portfolioData = {
     experience: [
         {
             title: 'Administrador de Sistemas en Techpole Solutions',
-            description: 'Responsable de la infraestructura crítica y continuidad operativa. Mis funciones incluyen:\n' +
-                '- Administración de servidores Windows/Linux y entornos virtualizados (VMware, Hyper-V).\n' +
-                '- Implementación de políticas de Backup, recuperación ante desastres y gestión de firewalls.\n' +
-                '- Configuración y monitoreo de redes LAN/WAN, VPNs y servicios esenciales (DNS, DHCP, Active Directory).\n' +
-                '- Resolución de incidencias críticas (Soporte Nivel 2/3) y consultoría técnica interna.',
+            role: 'Administrador de Sistemas en Techpole Solutions', // Añadimos esto
+            period: 'Actualidad',                                  // Añadimos esto
+            description: 'Responsable de la infraestructura crítica...',
             tags: ['Windows Server', 'Linux', 'VMware', 'Cybersecurity', 'Active Directory'],
-            links: {
-                github: '#',
-                demo: '#'
-            },
+            links: { github: '#', demo: '#' },
             image: './tu-imagen-techpole.webp',
             featured: true
         },
         {
             title: 'Infraestructura Web & Backend en Asialink',
-            description: 'Gestión integral del entorno web corporativo con enfoque en disponibilidad y rendimiento:\n' +
-                '- Administración y despliegue del servidor web y bases de datos (Backend).\n' +
-                '- Mantenimiento técnico, securización y optimización de arquitectura CMS (WordPress).\n' +
-                '- Implementación de SEO técnico y análisis de datos de tráfico para optimización de recursos.\n' +
-                '- Gestión de actualizaciones críticas, parches de seguridad y estructura de datos.',
+            role: 'Infraestructura Web & Backend en Asialink',   // Añadimos esto
+            period: 'Anterior',                                    // Añadimos esto
+            description: 'Gestión integral del entorno web...',
             tags: ['Backend', 'SQL', 'WordPress', 'SEO Técnico', 'Web Infrastructure'],
-            links: {
-                github: '#',
-                demo: '#'
-            },
+            links: { github: '#', demo: '#' },
             image: './tu-imagen-asialink.webp',
             featured: false
         },
