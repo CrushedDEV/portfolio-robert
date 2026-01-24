@@ -42,28 +42,43 @@ export const portfolioData = {
     //  EXPERIENCIA
     // =========================================================================================
 
-    experience: [
-        {
-            title: 'Administrador de Sistemas en Techpole Solutions',
-            role: 'Administrador de Sistemas en Techpole Solutions', // Añadimos esto
-            period: 'Actualidad',                                  // Añadimos esto
-            description: 'Responsable de la infraestructura crítica...',
-            tags: ['Windows Server', 'Linux', 'VMware', 'Cybersecurity', 'Active Directory'],
-            links: { github: '#', demo: '#' },
-            image: './tu-imagen-techpole.webp',
-            featured: true
-        },
-        {
-            title: 'Infraestructura Web & Backend en Asialink',
-            role: 'Infraestructura Web & Backend en Asialink',   // Añadimos esto
-            period: 'Anterior',                                    // Añadimos esto
-            description: 'Gestión integral del entorno web...',
-            tags: ['Backend', 'SQL', 'WordPress', 'SEO Técnico', 'Web Infrastructure'],
-            links: { github: '#', demo: '#' },
-            image: './tu-imagen-asialink.webp',
-            featured: false
-        },
-    ],
+ experience: [
+    {
+        title: 'Administrador de Sistemas',
+        role: 'Administrador de Sistemas',
+        company: 'Techpole Solutions',      // Ahora ya no dará error en línea 20
+        location: 'Barcelona, España',      // Ahora ya no dará error en línea 22
+        period: 'Actualidad',
+        // IMPORTANTE: Convertimos el texto en una LISTA [] para que el .map funcione
+        description: [
+            'Responsable de la infraestructura crítica y continuidad operativa.',
+            'Administración de servidores Windows/Linux y entornos virtualizados.',
+            'Implementación de políticas de Backup y gestión de firewalls.',
+            'Resolución de incidencias críticas (Soporte Nivel 2/3).'
+        ],
+        tags: ['Windows Server', 'Linux', 'VMware', 'Cybersecurity'],
+        links: { github: '#', demo: '#' },
+        image: './tu-imagen.webp',
+        featured: true
+    },
+    {
+        title: 'Infraestructura Web & Backend',
+        role: 'Infraestructura Web & Backend',
+        company: 'Asialink',
+        location: 'Remoto',
+        period: 'Anterior',
+        description: [
+            'Gestión integral del entorno web corporativo.',
+            'Administración y despliegue del servidor web y bases de datos.',
+            'Optimización de arquitectura CMS (WordPress).',
+            'Implementación de SEO técnico y análisis de datos.'
+        ],
+        tags: ['Backend', 'SQL', 'WordPress', 'SEO Técnico'],
+        links: { github: '#', demo: '#' },
+        image: './tu-imagen-2.webp',
+        featured: false
+    },
+],
 
     // =========================================================================================
     //  PROYECTOS
